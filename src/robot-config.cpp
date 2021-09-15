@@ -7,8 +7,8 @@ using code = vision::code;
 // A global instance of brain used for printing to the V5 brain screen
 brain Brain;
 controller controller1 = controller(primary);
-motor leftMotor = motor(PORT14, ratio36_1, false);
-motor rightMotor = motor(PORT11, ratio36_1, true);
+motor leftMotor = motor(PORT14, ratio18_1, false);
+motor rightMotor = motor(PORT11, ratio18_1, true);
 
 /**
  * Used to initialize code/tasks/devices added using tools in VEXcode Pro.
